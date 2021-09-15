@@ -1,0 +1,108 @@
+.chat{
+    position: absolute;
+    left:25%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-left: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+.avhead{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.header{
+    position:fixed;
+    padding-top: 2px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 50%;
+    color: white;
+    align-items: center;
+}
+
+.message{
+    padding-top: 10px;
+    overflow-y: scroll;
+    position:fixed;
+    top:10%;
+    height: 81%;
+    width: 50%;
+}
+
+.MAvatar{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.ensMes{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.MesTxt{
+    font-size: small;
+    font-weight: 400;
+    padding: 6px;
+    max-width: 450px;
+}
+
+.recu{
+    border-radius: 10px 10px 10px 2px;
+    background-color: #3e4042;
+}
+.envoye{
+    position: relative;
+    border-radius: 10px 10px 2px 10px;
+    background-color: #0084ff;
+    text-align: end;
+    left: 99%;
+    transform: translateX(-100%);
+}
+
+.footer{
+    position:fixed;
+    top:100%;
+    transform: translateY(-100%);
+    height: 7%;
+    width: 50%;
+}
+
+.footercontent{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    border-radius: 20px;
+
+}
+
+.inputchat{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    height: 90%;
+    width: 100%;
+}
+
+.bleu{
+    color: #0084ffe7;
+}
